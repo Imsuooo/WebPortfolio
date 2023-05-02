@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uiuxPortfolio/static/css/main.3b0da28c.css",
+    "main.css": "/uiuxPortfolio/static/css/main.9256b387.css",
     "main.js": "/uiuxPortfolio/static/js/main.d106fab5.js",
     "static/media/bg.jpg": "/uiuxPortfolio/static/media/bg.e463166ae176d5a3cb7c.jpg",
     "static/media/more_bg.jpg": "/uiuxPortfolio/static/media/more_bg.93fe41cdc85d303de356.jpg",
@@ -10,11 +10,11 @@
     "static/media/btn2.png": "/uiuxPortfolio/static/media/btn2.1bd278ca9b55bde1860f.png",
     "static/media/btn.png": "/uiuxPortfolio/static/media/btn.62c3f95d42a902a3c41f.png",
     "index.html": "/uiuxPortfolio/index.html",
-    "main.3b0da28c.css.map": "/uiuxPortfolio/static/css/main.3b0da28c.css.map",
+    "main.9256b387.css.map": "/uiuxPortfolio/static/css/main.9256b387.css.map",
     "main.d106fab5.js.map": "/uiuxPortfolio/static/js/main.d106fab5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b0da28c.css",
+    "static/css/main.9256b387.css",
     "static/js/main.d106fab5.js"
   ]
 }
