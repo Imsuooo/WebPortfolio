@@ -1,0 +1,113 @@
+#more {
+    width: 100%;
+    height: 100vh;
+    background: url(../../public/img/more_bg.jpg) no-repeat center center /cover;
+    overflow: hidden;
+    position: relative;
+
+    .more_area {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        z-index: 999;
+
+        .more_img-area {
+            width: 800px;
+            padding-bottom: 30px;
+
+            .moreImg {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .more_text {
+            color: #fff;
+            font-size: 2.375rem;
+            font-weight: 200;
+            br{display: none;}
+        }
+
+        .moreBtn {
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            padding: 14px 46px;
+            border-radius: 50px;
+            font-size: 1.5rem;
+            margin-top: 5%;
+            opacity: .9;
+            transition: .3s ease-in-out;
+            background: #FAC116;
+            color: #fff;
+            font-weight: 600;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &:hover .btn_arrow {
+                transform: translateX(45%);
+            }
+
+            .btn_arrow {
+                width: 10px;
+                display: inline-block;
+                padding-top: 3px;
+                margin-left: 20px;
+                transition: .3s ease-in-out;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:890px) {
+    #more {
+        height: 770px;
+        .more_area {
+            .more_img-area {
+                width: 80%;
+
+            }
+    
+            .more_text {
+                font-size: 1.625rem;
+            }
+            .moreBtn{
+                font-size: 1.125rem;
+                padding: 12px 30px;
+                .btn_arrow{
+                    width: 8px;
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    #more {
+        .more_area {
+    
+            .more_text {
+                text-align: center;
+                br{display: block;}
+            }
+            .moreBtn{
+                font-size: 1.125rem;
+                padding: 12px 30px;
+                .btn_arrow{
+                    width: 8px;
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+}

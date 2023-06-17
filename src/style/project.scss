@@ -1,0 +1,529 @@
+#project01 {
+    background: url(../../public/img/freitag_bg.jpg) no-repeat center center / cover;
+}
+
+#project01_1, #project01_2 {
+    background: #e3e3e3;
+}
+
+#project01_3 {
+    background: #222222;
+}
+
+#project02 {
+    background: url(../../public/img/unicef_bg.jpg) no-repeat center center / cover;
+}
+
+#project02_1, #project02_2 {
+    background: #ebf3f6;
+}
+
+#project02_3 {
+    background: #e5e6e8;
+}
+
+#project03 {
+    background: url(../../public/img/maeil_bg.jpg) no-repeat center center / cover;
+}
+
+#project03_1, #project03_2, #project03_3{
+    background: #e8e6f4;
+}
+#project03_4{background: #1e3f6c;}
+
+.btn {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 14px 26px;
+    border-radius: 30px;
+    font-size: 1.125rem;
+    margin-top: 7%;
+    opacity: .8;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &:hover .btn_arrow {
+        transform: translateX(45%);
+    }
+
+    .btn_arrow {
+        width: 9px;
+        display: inline-block;
+        padding-top: 3px;
+        margin-left: 10px;
+        transition: .3s ease-in-out;
+    }
+}
+
+.content_boxs {
+    .content_box {
+        .content_info {
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin-bottom: 5px;
+            color: #222;
+
+            .koB {
+                font-weight: 700;
+            }
+
+            .koB_unicef {
+                color: #1AABE2;
+            }
+            .koB_maeil {
+                color: #194E92;
+            }
+
+            .skill {
+                display: block;
+            }
+        }
+    }
+
+    .btn1 {
+        background: #222;
+        color: #fff;
+    }
+
+    .btn2 {
+        background: #1AABE2;
+        color: #fff;
+    }
+    .btn3 {
+        background: #412793;
+        color: #fff;
+    }
+
+    .overview {
+        padding-top: 130px;
+        font-size: 1.125rem;
+    }
+}
+
+.project {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    .content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        .content_left {
+            height: auto;
+
+            .project_title {
+                width: 415px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .content_right {
+            width: 660px;
+            object-fit: contain;
+            transition: .3s ease-in-out;
+
+            .header_img {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        .content_box_m {
+            display: none;
+        }
+    }
+}
+
+.project_item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .section_box {
+        position: relative;
+        padding-bottom: 150px;
+        display: flex;
+        gap: 200px;
+
+        .min_title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .concept_icon {
+                width: 16px;
+            }
+
+            .min_title_text {
+                font-size: 1.625rem;
+                font-weight: 600;
+                padding-left: 10px;
+
+                &.min_title_text_freitag {
+                    color: #333;
+                }
+
+                &.min_title_text_unicef {
+                    color: #3EC4ED;
+                }
+                &.min_title_text_maeil {
+                    color: #3D71A0;
+                }
+            }
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 150px;
+            position: absolute;
+            top: 0;
+            margin-top: 100px;
+
+            &.freitag_title2 {
+                color: #F5F5F5;
+            }
+
+            &.unicef_title {
+                color: #1AABE2;
+            }
+
+            &.maeil_title {
+                color: #194E92;
+            }
+            &.maeil_title2 {
+                color: #F8F9FA;
+            }
+        }
+
+        .right {
+            padding-top: 100px;
+            width: 100%;
+
+            .min_box {
+                margin-top: 200px;
+
+                li {
+                    &:not(:first-child) {
+                        padding-top: 50px;
+                    }
+
+                    .concept_text {
+                        font-size: 1.125rem;
+                    }
+
+                    .color_area {
+                        display: flex;
+                        gap: 20px;
+
+                        .color_box {
+                            width: fit-content;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin-top: 20px;
+
+                            .color {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 100%;
+                                margin-bottom: 6px;
+
+                                &.color_000 {
+                                    background: #000;
+                                }
+
+                                &.color_f5f5f5 {
+                                    background: #f5f5f5;
+                                }
+
+                                &.color_1AABE2 {
+                                    background: #1AABE2;
+                                }
+
+                                &.color_FFDC0D {
+                                    background: #FFDC0D;
+                                }
+
+                                &.color_404040 {
+                                    background: #404040;
+                                }
+                                &.color_194E92 {
+                                    background: #194E92;
+                                }
+                                &.color_412793 {
+                                    background: #412793;
+                                }
+                                &.color_F8F9FA {
+                                    background: #F8F9FA;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .left {
+            width: 100%;
+            padding-top: 100px;
+            display: flex;
+            align-items: start;
+
+            .wireframe {
+                width: 280px;
+                display: block;
+                padding-left: 40px;
+            }
+        }
+
+        .redesign_img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .redesign_img_m {
+            display: none;
+
+            &.unicef_redesign_m {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        .unicef_device {
+            margin-top: 50px;
+        }
+        .maeil_concept_text{ 
+            margin-top: 40px;
+            font-size: 1.125rem;
+        }
+        .maeil_blender_m{display: none;}
+        &.section_box_blender{
+            flex-direction: column;
+            gap: 50px;
+        }
+        .maeil_device_m{display: none;}
+    }
+}
+
+@media screen and (max-width:1520px) {
+    .project {
+        .content {
+            .content_left {
+                flex-shrink: 0;
+            }
+
+            .content_right {
+                width: 500px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .content_boxs {
+
+        .overview {
+            padding-top: 80px;
+        }
+    }
+}
+
+@media screen and (max-width:1163px) {
+    .project {
+        height: 100%;
+
+        .content {
+            flex-direction: column;
+            align-items: center;
+
+            .content_left {
+                .project_title {
+                    margin-bottom: 30px;
+                }
+            }
+
+            .content_box_web {
+                display: none;
+            }
+
+            .content_box_m {
+                display: block;
+                text-align: center;
+
+                .content_box {
+                    .content_info {
+                        margin: 15px 0;
+                    }
+                }
+
+                .btn {
+                    margin: 5% auto;
+                }
+
+                .overview {
+                    padding: 10px 0 100px;
+                }
+            }
+        }
+    }
+
+    .project_item {
+        .content_container {
+            padding: 100px 10%;
+        }
+
+        .section_box {
+            flex-direction: column;
+            text-align: center;
+            gap: 50px;
+
+            .min_title {
+                justify-content: center;
+            }
+
+            .title {
+                position: initial;
+                margin: 0 auto;
+            }
+
+            .right {
+                padding-top: 0;
+
+                .min_box {
+                    margin-top: 70px;
+
+                    li {
+                        .color_area {
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+
+            .left {
+                flex-direction: column;
+                align-items: center;
+                padding-top: 0;
+
+                .wireframe {
+                    width: 280px;
+                    display: block;
+                    padding: 0;
+                }
+            }
+
+            .redesign_img {
+                display: none;
+            }
+
+            .redesign_img_m {
+                display: block;
+            }
+
+            .unicef_device {
+                margin-top: 0;
+            }
+            .maeil_concept_text{ 
+                margin-top: 0;
+            }
+            .maeil_blender_web{display: none;}
+            .maeil_blender_m{display: block;}
+            .maeil_device_web{display: none;}
+            .maeil_device_m{display: block;}
+        }
+    }
+
+}
+
+@media screen and (max-width:620px) {
+    .project {
+        .content {
+            padding-top: 100px;
+
+            .content_left {
+                .project_title {
+                    width: 100%;
+                    padding: 0 30px;
+                }
+            }
+
+            .content_right {
+                width: 100%;
+                padding: 0 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:550px) {
+    .content_boxs {
+        .content_box {
+            .content_info {
+                font-size: 1rem;
+            }
+        }
+
+        .btn {
+            font-size: 1rem;
+            padding: 10px 14px;
+
+            .btn_arrow {
+                width: 7px;
+            }
+        }
+
+        .overview {
+            font-size: 1rem;
+
+            br {
+                display: none;
+            }
+        }
+    }
+
+    .project_item {
+        .content_container {
+            padding: 80px 10% 50px;
+        }
+
+        .section_box {
+            .min_title {
+                .concept_icon {
+                    width: 16px;
+                }
+
+                .min_title_text {
+                    font-size: 1.25rem;
+                }
+            }
+
+            .title {
+                font-size: 2rem;
+            }
+
+            .right {
+                .min_box {
+                    margin-top: 60px;
+
+                    li {
+                        .concept_text {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+            .maeil_concept_text{ 
+                font-size: 1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+#header #nav {
+  background: rgb(255, 255, 255);
+}
+#header #nav .nav_area {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  align-items: center;
+}
+#header #nav .nav_area li .portfolio {
+  cursor: pointer;
+}
+#header #nav .nav_area li .portfolio .logo {
+  width: 76px;
+}
+#header #nav .nav_area li .menu {
+  display: flex;
+  gap: 14px;
+}
+#header #nav .nav_area li .menu li {
+  position: relative;
+}
+#header #nav .nav_area li .menu li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  background: #F17413;
+  top: 7px;
+  right: -8px;
+}
+#header #nav .nav_area li .menu li .menu_list {
+  display: block;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-size: 1.12rem;
+  font-weight: 400;
+  color: #147b8e;
+}
+#header #nav .nav_area li .menu li .menu_list:hover {
+  color: #fac116;
+}
+
+@media screen and (max-width: 1050px) {
+  #header .container {
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #header .container {
+    padding: 0 30px;
+  }
+  #header #nav .nav_area {
+    flex-direction: column;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=header.css.map */
