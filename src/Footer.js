@@ -16,7 +16,7 @@ const Footer = () => {
         }
         return () => 
           clearInterval(typingInterval)
-  });
+  }, [count, text]);
   return (
     <section id="footer">
       <div className="footerText">
