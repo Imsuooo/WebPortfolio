@@ -21,7 +21,7 @@ const Footer = () => {
     <section id="footer">
       <div className="footerText">
         <div className="text_area">
-          <p className="text enFont">{text}</p>
+          <p className="text enFont">thank you!</p>
         </div>
         <div className="text_area_ko">
           <p className="ko">끝까지 봐주셔서 감사합니다.🙂</p>
