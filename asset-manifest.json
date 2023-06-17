@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/uiuxPortfolio/static/css/main.73fba730.css",
-    "main.js": "/uiuxPortfolio/static/js/main.0ecef37a.js",
-    "static/media/bg.jpg": "/uiuxPortfolio/static/media/bg.e463166ae176d5a3cb7c.jpg",
-    "static/media/more_bg.jpg": "/uiuxPortfolio/static/media/more_bg.93fe41cdc85d303de356.jpg",
-    "static/media/freitag_bg.jpg": "/uiuxPortfolio/static/media/freitag_bg.ce9280a4951673187c7c.jpg",
-    "static/media/maeil_bg.jpg": "/uiuxPortfolio/static/media/maeil_bg.e656d6cd05090bf488fb.jpg",
-    "static/media/unicef_bg.jpg": "/uiuxPortfolio/static/media/unicef_bg.f22432956e63b411e86c.jpg",
-    "index.html": "/uiuxPortfolio/index.html",
-    "main.73fba730.css.map": "/uiuxPortfolio/static/css/main.73fba730.css.map",
-    "main.0ecef37a.js.map": "/uiuxPortfolio/static/js/main.0ecef37a.js.map"
+    "main.css": "/Imsuooo/uiuxPortfolio.git/static/css/main.751fa60c.css",
+    "main.js": "/Imsuooo/uiuxPortfolio.git/static/js/main.49cd7d68.js",
+    "static/media/bg.jpg": "/Imsuooo/uiuxPortfolio.git/static/media/bg.e463166ae176d5a3cb7c.jpg",
+    "static/media/more_bg.jpg": "/Imsuooo/uiuxPortfolio.git/static/media/more_bg.93fe41cdc85d303de356.jpg",
+    "static/media/freitag_bg.jpg": "/Imsuooo/uiuxPortfolio.git/static/media/freitag_bg.ce9280a4951673187c7c.jpg",
+    "static/media/maeil_bg.jpg": "/Imsuooo/uiuxPortfolio.git/static/media/maeil_bg.e656d6cd05090bf488fb.jpg",
+    "static/media/unicef_bg.jpg": "/Imsuooo/uiuxPortfolio.git/static/media/unicef_bg.f22432956e63b411e86c.jpg",
+    "index.html": "/Imsuooo/uiuxPortfolio.git/index.html",
+    "main.751fa60c.css.map": "/Imsuooo/uiuxPortfolio.git/static/css/main.751fa60c.css.map",
+    "main.49cd7d68.js.map": "/Imsuooo/uiuxPortfolio.git/static/js/main.49cd7d68.js.map"
   },
   "entrypoints": [
-    "static/css/main.73fba730.css",
-    "static/js/main.0ecef37a.js"
+    "static/css/main.751fa60c.css",
+    "static/js/main.49cd7d68.js"
   ]
 }
